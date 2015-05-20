@@ -1,0 +1,64 @@
+
+<html>
+<head>
+<title>Simple Page</title>
+<link href="styles/name.css" rel="stylesheet"
+/>
+</head>
+
+<body> 
+	<div id="header">
+	<h1>Simple HTML Page</h1> 
+	</div>
+		<nav> 
+			<ul>
+				<li> <a href="cssrox1">rox1</a></li>
+				<li> <a href="cssrox2">rox2</a></li>
+				<li> <a href="cssrox3">rox3</a></li>
+				<li> <a href="cssrox4">rox4</a></li>
+			</ul>
+
+		  </nav>
+	</header>
+
+	<div class="row">
+		<div class="col"> col1  </div>
+		<div class="col"> col2 </div>
+		<div class="col"> col3 </div>
+
+	<div class="rowafter">
+		<div class="col"> col1  </div>
+
+
+	<div class="content">
+    	<h2>
+    	This is aaaaaa very simple HTML page.
+    	</h2>
+    	<ul>
+    		<li>milk</li>
+    		<li>eggs</li>
+    	</ul>
+    	<input id="name" type="text">
+    	<button id="addOne">ADD</button>
+    	</div>
+</div>
+	<p class="secondary">It's about as basic as they come. It has:<p>
+
+	<ul>
+		<li> <a href="page1.html"> Page1 An H1 </a> Tag</li>
+		<li><a href="page 2.html"> Page2 ddsfAn H1 </a> </li>
+	</ul>
+	<im> italic??</im>
+<footer> <div class="footer"> (c) mmh </div></footer>
+<script src="http://code.jquery.com/jquery-2.1.4.min.js" ></script>
+
+<script>
+$('#addOne').click(function() {
+	var value = $('#name').val();
+	$('ul').append('<li>' + value + '</li>');	
+});
+</script>
+
+
+</body>
+</html>
