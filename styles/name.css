@@ -1,0 +1,48 @@
+header {
+	background: black
+	color: white;
+	padding: 5px 20px 4px;
+}
+
+body {
+	margin: 0;
+	background: #999;
+	font-family: arial;
+	}
+header h1 {
+	color: green;
+	font-family: courier;
+	display: inline;
+	}
+nav ul {
+	display: inline;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	background: black;
+	margin: 0;
+	color: white;
+	font-family: comic;
+	padding: 20px 15px;
+
+	}
+nav ul li a{
+	color: white;
+	}
+p {
+	background: #666;
+	color: white;
+	padding: 10px 10px;
+	}
+.rowafter{
+	clear: both;
+}
+.col {
+	padding: 10px 10px 10px 10px;
+	background: yellow;
+	color: grey;
+	float:left;
+	border-radius: 10px;
+	width: 30%;
+}
